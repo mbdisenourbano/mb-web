@@ -6,6 +6,35 @@
 <title>MB Diseño Urbano</title>
 
 <style>
+  /* HERO REFINADO */
+
+.hero{
+  padding:160px 20px 120px;
+}
+
+.hero-grid{
+  display:grid;
+  grid-template-columns:1.1fr 1fr;
+  gap:60px;
+  align-items:center;
+}
+
+.hero-text h1{
+  font-size:52px;
+  line-height:1.1;
+  margin-bottom:20px;
+}
+
+.hero-text p{
+  font-size:18px;
+  color:#555;
+  max-width:520px;
+}
+
+.hero-image img{
+  width:100%;
+  display:block;
+}
 :root{--text:#111;--muted:#666;--line:#eaeaea}
 body{margin:0;font-family:Arial,sans-serif;color:var(--text)}
 header{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line)}
@@ -34,12 +63,24 @@ img{width:100%}
 </div>
 </header>
 
-<section>
-<p class="small">EVALUACIÓN NORMATIVA. FACTIBILIDAD. DESTRABE DE PROYECTOS.</p>
-<h1>Tu proyecto está detenido por normativa</h1>
-<img src="hero.png">
-<p>Evaluamos viabilidad. Identificamos rutas posibles. Desbloqueamos proyectos en contextos complejos. Especialista en factibilidad normativa, zonas rurales, subdivisiones y conflictos regulatorios.</p>
-<a class="cta">AGENDA REUNIÓN</a>
+<section class="hero">
+  <div class="hero-grid">
+
+    <div class="hero-text">
+      <p class="muted">EVALUACIÓN NORMATIVA · FACTIBILIDAD · DESTRABE DE PROYECTOS</p>
+      <h1>Tu proyecto está detenido por normativa</h1>
+      <p>
+        Evaluamos viabilidad. Identificamos rutas posibles. Desbloqueamos proyectos en contextos complejos. 
+        Especialista en factibilidad normativa, zonas rurales, subdivisiones y conflictos regulatorios.
+      </p>
+      <a class="cta" href="#contacto">Agenda reunión</a>
+    </div>
+
+    <div class="hero-image">
+      <img src="hero.png">
+    </div>
+
+  </div>
 </section>
 
 <div class="divider"></div>
