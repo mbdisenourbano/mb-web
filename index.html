@@ -1,193 +1,227 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MB Diseño Urbano | Evaluación Normativa y Destrabe</title>
-  <style>
-    :root{--text:#111;--muted:#555;--line:#eaeaea}
-    body{margin:0;font-family:Arial, sans-serif;line-height:1.6;color:var(--text);background:#fff}
-    header{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line);z-index:10}
-    .nav{max-width:1100px;margin:0 auto;padding:14px 20px;display:flex;gap:24px}
-    .nav a{text-decoration:none;color:var(--text);font-size:14px}
-    section{padding:90px 20px;max-width:1100px;margin:0 auto}
-    h1,h2,h3{margin:0 0 14px 0;line-height:1.2}
-    p{margin:0 0 10px 0}
-    .hero{padding:140px 20px 100px}
-    .cta{display:inline-block;padding:12px 18px;border:1px solid var(--text);text-decoration:none;color:var(--text);margin-top:18px}
-    .muted{color:var(--muted)}
-    .divider{height:1px;background:var(--line);max-width:1100px;margin:0 auto}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:20px}
-    .card{border:1px solid var(--line);padding:18px}
-    ul{padding-left:18px}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MB Diseño Urbano</title>
+
+<style>
+:root{--text:#111;--muted:#666;--line:#eaeaea}
+body{margin:0;font-family:Arial,sans-serif;color:var(--text)}
+header{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line)}
+.nav{max-width:1100px;margin:auto;padding:10px 20px;display:flex;justify-content:flex-end;gap:20px}
+.nav a{font-size:12px;text-decoration:none;color:#000}
+section{max-width:1100px;margin:auto;padding:80px 20px}
+.grid{display:grid;gap:20px}
+.two{grid-template-columns:1fr 1fr}
+.three{grid-template-columns:repeat(3,1fr)}
+.card{border:1px solid var(--line);padding:20px}
+img{width:100%}
+.divider{height:1px;background:var(--line);margin:40px auto;max-width:1100px}
+.cta{border:1px solid #000;padding:10px 15px;display:inline-block;margin-top:15px}
+.small{font-size:13px;color:var(--muted)}
+</style>
 </head>
 
 <body>
 
 <header>
-  <div class="nav">
-    <a href="#problemas">PROBLEMAS</a>
-    <a href="#servicios">SERVICIOS</a>
-    <a href="#proceso">PROCESO</a>
-    <a href="#contacto">CONTACTO</a>
-  </div>
+<div class="nav">
+<a href="#problemas">PROBLEMAS</a>
+<a href="#servicios">SERVICIOS</a>
+<a href="#proceso">PROCESO</a>
+<a href="#contacto">CONTACTO</a>
+</div>
 </header>
 
-<!-- HERO -->
-<section class="hero">
-  <p class="muted">EVALUACIÓN NORMATIVA · FACTIBILIDAD · DESTRABE DE PROYECTOS</p>
-  <h1>Tu proyecto está detenido por normativa</h1>
-  <img src="hero.png" style="width:100%; margin-top:30px;">
-  <p>Evaluamos viabilidad. Identificamos rutas posibles. Desbloqueamos proyectos en contextos complejos. Especialista en factibilidad normativa, zonas rurales, subdivisiones y conflictos regulatorios.</p>
-  <a class="cta" href="#contacto">Agenda reunión</a>
+<section>
+<p class="small">EVALUACIÓN NORMATIVA. FACTIBILIDAD. DESTRABE DE PROYECTOS.</p>
+<h1>Tu proyecto está detenido por normativa</h1>
+<img src="hero.png">
+<p>Evaluamos viabilidad. Identificamos rutas posibles. Desbloqueamos proyectos en contextos complejos. Especialista en factibilidad normativa, zonas rurales, subdivisiones y conflictos regulatorios.</p>
+<a class="cta">AGENDA REUNIÓN</a>
 </section>
 
 <div class="divider"></div>
 
-<!-- PROBLEMAS -->
 <section id="problemas">
-  <h2>01 ¿Cuál es tu problema?</h2>
-  <p class="muted">Si reconoces alguno de estos escenarios, es probable que necesites evaluación normativa especializada.</p>
+<h2>01 ¿Cuál es tu problema?</h2>
+<p class="small">Si reconoces alguno de estos escenarios, es probable que necesites evaluación normativa especializada.</p>
 
-  <div class="grid">
-    <div class="card"><strong>Proyecto detenido por observaciones municipales</strong><p>Recibiste observaciones del DOM y no está claro si es inviable o resoluble.</p></div>
-    <div class="card"><strong>Incertidumbre sobre viabilidad normativa</strong><p>Distintas opiniones técnicas, sin certeza antes de invertir.</p></div>
-    <div class="card"><strong>Subdivisión rural o con restricciones</strong><p>Normativa restrictiva, dudas sobre excepciones y tiempos.</p></div>
-    <div class="card"><strong>Conflicto con autoridades</strong><p>Rechazo municipal y necesidad de argumentación técnica sólida.</p></div>
-    <div class="card"><strong>Terreno con múltiples restricciones</strong><p>Superposición de normativa y falta de claridad sobre viabilidad.</p></div>
-  </div>
+<div class="grid">
+<div><strong>01</strong><p>Proyecto Detenido por Observaciones Municipales 
+Presenté mi proyecto a la municipalidad y recibí observaciones. No entiendo exactamente por qué rechazaron. ¿Es realmente inviable o hay forma de resolver?</p></div>
+
+<div><strong>02</strong><p>Incertidumbre sobre Viabilidad Normativa 
+Tengo un terreno que quiero desarrollar, pero no sé si es viable según normativa. He consultado con varios profesionales y cada uno dice algo diferente.</p></div>
+
+<div><strong>03</strong><p>Subdivisión en Zona Rural o con Restricciones 
+Quiero subdividir mi propiedad en zona rural. La normativa local tiene restricciones fuertes. ¿Es posible?</p></div>
+
+<div><strong>04</strong><p>Conflicto con Autoridades o Interpretación Normativa
+La municipalidad rechazó mi proyecto. Creo que están equivocados. ¿Cómo impugno? ¿Tengo argumentos técnicos sólidos?</p></div>
+
+<div><strong>05</strong><p>Terreno Complejo con Múltiples Restricciones 
+Mi terreno tiene varias restricciones: zona rural, limitaciones de acceso, normativa ambiental. ¿Es viable algún proyecto?</p></div>
+</div>
 </section>
 
 <div class="divider"></div>
 
-<!-- DIFERENCIACIÓN -->
 <section>
-  <h2>02 ¿Por qué soy diferente?</h2>
-  <img src="diferenciacion.png" style="width:100%; margin-top:20px;">
-  <p>No trabajo en diseño arquitectónico. Trabajo en interpretación normativa y viabilidad de proyectos.</p>
-  <ul>
-    <li>Enfoque técnico: evaluación normativa profunda</li>
-    <li>Reducción de riesgo: certeza antes de invertir</li>
-    <li>Especialización: zonas rurales y contextos complejos</li>
-  </ul>
-  <p><strong>“No prometo soluciones mágicas. Prometo análisis profundo, estrategia clara y resultados reales.”</strong></p>
+<div class="grid two">
+<div>
+<h2>02 ¿Por qué soy diferente?</h2>
+<p>No soy un arquitecto diseñador. Mi especialidad es interpretar regulaciones complejas, evaluar factibilidad real y diseñar estrategias para desbloquear proyectos.</p>
+<p>-Enfoque técnico: Evaluación normativa profunda, no diseño.</p>
+<p>-Reducción de riesgo: Certeza normativa antes de invertir.</p>
+<p>-Contextos complejos: Especialista en zonas rurales y restricciones.</p>
+<p><strong>"No prometo soluciones mágicas. Prometo análisis profundo, estrategia clara y resultados reales."</strong></p>
+</div>
+<div>
+<img src="diferenciacion.png">
+</div>
+</div>
 </section>
 
 <div class="divider"></div>
 
-<!-- SERVICIOS -->
 <section id="servicios">
-  <h2>03 Servicios</h2>
-  <p class="muted">Diseñados para reducir incertidumbre normativa y desbloquear proyectos.</p>
+<h2>03 Servicios</h2>
 
-  <div class="grid">
-    <div class="card"><h3>A · Diagnóstico Normativo Integral</h3><p>Evaluación completa de viabilidad normativa. PRC, OGUC, PREMVAL y más. Resultado: certeza sobre viabilidad.</p></div>
-    <div class="card"><h3>B · Estrategia de Destrabe</h3><p>Diseño de rutas para desbloquear proyectos. Resultado: plan claro de acción.</p></div>
-    <div class="card"><h3>C · Gestión Institucional</h3><p>Coordinación con DOM, SECPLA, SEREMI. Resultado: avance sin sorpresas.</p></div>
-  </div>
+<div class="grid three">
+<div class="card">
+<strong>A</strong>
+<p>Diagnóstico Normativo Integral
+Evaluación completa de viabilidad normativa. Análisis de instrumentos aplicables (PREMVAL Satélite Borde Costero Sur, PRC, LGUC, OGUC). Identificación de restricciones, conflictos y excepciones. Resultado: Tienes certeza sobre viabilidad.</p>
+<p>Tiempo: 2-3 semanas</p>
+</div>
+
+<div class="card">
+<strong>B</strong>
+<p>Estrategia de Destrabe
+Diseño de estrategia para desbloquear proyectos detenidos. Análisis de rutas posibles. Evaluación de viabilidad de cada ruta. Resultado: Sabes exactamente qué hacer para desbloquear.</p>
+<p>Tiempo: Variable</p>
+</div>
+
+<div class="card">
+<strong>C</strong>
+<p>Gestión Institucional
+Coordinación con autoridades (Seremi de Vivienda y Urbanismo - SEREMI MINVU, Secretaría Comunal de Planificación - SECPLA, Dirección de Obras Municipales - DOM). Preparación de documentación técnica. Seguimiento de expedientes. Resultado: Tu proyecto avanza sin sorpresas.</p>
+<p>Tiempo: Variable</p>
+</div>
+</div>
 </section>
 
 <div class="divider"></div>
 
-<!-- PROCESO -->
 <section id="proceso">
-  <h2>04 Nuestro Proceso</h2>
-  <p class="muted">Transparente, paso a paso y orientado a resultados. Aquí está exactamente cómo trabajamos.</p>
+<h2>04 Nuestro Proceso</h2>
+<p class="small">Transparente, paso a paso y orientado a resultados. Aquí está exactamente cómo trabajamos.</p>
 
-  <div class="grid">
-    <div class="card"><h3>01 · Levantamiento Normativo</h3><p>Reunión inicial, recopilación de documentación e identificación de instrumentos normativos aplicables mediante diagnóstico.</p></div>
-    <div class="card"><h3>02 · Análisis de Restricciones</h3><p>Análisis exhaustivo de cada instrumento. Identificación de conflictos, restricciones y excepciones.</p></div>
-    <div class="card"><h3>03 · Definición de Estrategia</h3><p>Presentación de rutas posibles, evaluación de riesgo y recomendación de estrategia óptima.</p></div>
-    <div class="card"><h3>04 · Gestión Institucional</h3><p>Coordinación con autoridades, preparación de documentación técnica y seguimiento de expedientes.</p></div>
-    <div class="card"><h3>05 · Cierre y Documentación</h3><p>Entrega de permisos, documentación completa y disponibilidad para futuras fases del proyecto.</p></div>
-  </div>
+<div class="grid three">
+<div class="card">01 Levantamiento Normativo</div>
+<div class="card">02 Análisis de Restricciones</div>
+<div class="card">03 Definición de Estrategia</div>
+<div class="card">04 Gestión Institucional</div>
+<div class="card">05 Cierre y Documentación</div>
+</div>
 </section>
 
 <div class="divider"></div>
 
-<!-- FILTRO -->
 <section>
-  <h2>05 ¿Es para ti?</h2>
+<h2>05 ¿Es para ti?</h2>
 
-  <p><strong>Este servicio es para ti si:</strong></p>
-  <ul>
-    <li>Tienes un proyecto detenido o con dudas normativas</li>
-    <li>Necesitas certeza sobre viabilidad antes de invertir</li>
-    <li>Enfrentas conflicto con autoridades</li>
-    <li>Tienes terreno en zona rural o con restricciones</li>
-    <li>Valoras precisión técnica sobre promesas vagas</li>
-  </ul>
+<div class="grid two">
+<div>
+<p><strong>Este servicio NO es para ti si:</strong></p>
+<p>Buscas diseño arquitectónico (eso es otro servicio)
+Necesitas solución rápida y barata (no existe)
+Esperas que 'arreglemos' normativa que claramente no permite tu proyecto
+No estás dispuesto a considerar alternativas o replanteos</p>
+</div>
 
-  <p><strong>Este servicio NO es para ti si:</strong></p>
-  <ul>
-    <li>Buscas diseño arquitectónico</li>
-    <li>Necesitas solución rápida y barata</li>
-    <li>Esperas que se “arregle” normativa inviable</li>
-    <li>No estás dispuesto a considerar alternativas</li>
-  </ul>
+<div>
+<p><strong>Este servicio es para ti si:</strong></p>
+<p>Tienes un proyecto detenido o con dudas normativas
+Necesitas certeza sobre viabilidad antes de invertir
+Enfrentas conflicto con autoridades
+Tienes terreno en zona rural o con restricciones
+Valoras precisión técnica sobre promesas vagas</p>
+</div>
+</div>
 </section>
 
 <div class="divider"></div>
 
-<!-- SOBRE MI -->
 <section>
-  <h2>06 Sobre mí</h2>
-  <p><strong>Miguel Meza Buzeta</strong></p>
-  <p>Arquitecto. Diplomado en BIM (Building Information Modeling), 2019. Universidad de Artes y Ciencias de la Comunicación — UNIACC.</p>
-  <p>10+ años interpretando normativa compleja. 50+ proyectos desbloqueados. Experiencia en zonas rurales, subdivisiones y conflictos regulatorios. Relación directa con autoridades: Municipalidades, SECPLA, SAG, SEREMI MINVU, MINAGRI.</p>
-  <p><strong>Especialización:</strong> Evaluación normativa (PREMVAL Satélite Borde Costero Sur, PRC, OGUC, leyes especiales). Destrabe de proyectos detenidos. Gestión institucional. Contextos complejos.</p>
+<h2>08 Casos de Éxito</h2>
+
+<p><strong>01 El Cardonal</strong><br>
+Subdivisión Predial para Desarrollo Residencial
+Proyecto de subdivisión en zona con restricciones normativas. Evaluación de factibilidad, identificación de rutas viables, gestión con autoridades municipales.
+Resultado: Subdivisión aprobada. Propietario cuenta con ruta clara para ejecución.</p>
+
+<p><strong>02 El Totoral</strong><br>
+Uso y Consolidación del Predio
+Análisis de viabilidad para consolidación habitacional con mejoras según normativa vigente. Evaluación de restricciones, definición de estrategia de desarrollo.
+Resultado: Proyecto viable con ruta clara de ejecución</p>
+
+<p><strong>03 Huallilemu</strong><br>
+Mediación Institucional Compleja
+Conflicto de interpretación normativa entre SAG, SEREMI MINVU, MINAGRI y DOM. Mediación técnica, análisis de zonificación PRSBCS, resolución de conflicto.
+Resultado: Acuerdo institucional alcanzado. Proyecto desbloqueado con certeza regulatoria.</p>
+
 </section>
 
 <div class="divider"></div>
 
-<!-- CASOS -->
 <section>
-  <h2>08 Casos de Éxito</h2>
-  <div class="grid">
-    <div class="card">
-      <img src="caso-cardonal.png" style="width:100%; margin-bottom:10px;">
-      <strong>El Cardonal</strong>
-      <p>Subdivisión predial para desarrollo residencial en zona con restricciones normativas.</p>
-      <p><strong>Resultado:</strong> Subdivisión aprobada.</p>
-    </div>
+<h2>09 Lo que dicen nuestros clientes</h2>
 
-    <div class="card">
-      <img src="caso-totoral.png" style="width:100%; margin-bottom:10px;">
-      <strong>El Totoral</strong>
-      <p>Análisis de viabilidad para consolidación habitacional en predio con restricciones normativas.</p>
-      <p><strong>Resultado:</strong> Proyecto viable con ruta clara de ejecución.</p>
-    </div>
+<p>Clientes que enfrentaban incertidumbre normativa y lograron desbloquear sus proyectos.</p>
 
-    <div class="card">
-      <img src="caso-huallilemu.png" style="width:100%; margin-bottom:10px;">
-      <strong>Huallilemu</strong>
-      <p>Conflicto de interpretación normativa entre SAG, SEREMI MINVU, MINAGRI y DOM.</p>
-      <p><strong>Resultado:</strong> Proyecto desbloqueado.</p>
-    </div>
-  </div>
+<p>"Tenía un proyecto detenido por normativa. Miguel hizo un análisis profundo y encontró una ruta viable que otros no vieron. Proyecto ejecutado sin conflictos."
+Carlos Rodríguez
+Inversionista Inmobiliario</p>
+
+<p>"No sabía si mi terreno era viable para subdividir. La evaluación normativa fue clara y precisa. Hoy tengo un proyecto aprobado."
+Patricia González
+Propietaria Rural</p>
+
+<p>"Excelente análisis técnico. Redujeron incertidumbre normativa y nos ahorraron meses de gestión. Muy profesional."
+Roberto Silva
+Desarrollador Inmobiliario</p>
+
 </section>
 
 <div class="divider"></div>
 
-<!-- TESTIMONIOS -->
-<section>
-  <h2>09 Lo que dicen nuestros clientes</h2>
-  <div class="grid">
-    <div class="card"><p>"Encontraron una ruta viable que otros no vieron."</p><p><strong>Inversionista</strong></p></div>
-    <div class="card"><p>"Evaluación clara. Proyecto aprobado."</p><p><strong>Propietaria</strong></p></div>
-    <div class="card"><p>"Redujeron incertidumbre normativa significativamente."</p><p><strong>Desarrollador</strong></p></div>
-  </div>
-</section>
-
-<div class="divider"></div>
-
-<!-- CONTACTO -->
 <section id="contacto">
-  <h2>07 Contacto</h2>
-  <p>Agenda una reunión para evaluar la viabilidad de tu proyecto.</p>
-  <p class="muted">mbduarq@gmail.com · +56 9 4177 1443 · Región de Valparaíso</p>
-  <a class="cta" href="#">Enviar mensaje</a>
+<div class="grid two">
+
+<div>
+<h2>07 Contacto</h2>
+<p>Agenda una reunión para evaluar la viabilidad de tu proyecto.</p>
+</div>
+
+<div>
+<p><strong>Correo</strong><br>mbduarq@gmail.com</p>
+<p><strong>Teléfono</strong><br>+56 9 4177 1443</p>
+<p><strong>Ubicación</strong><br>El Totoral, El Quisco<br>Región de Valparaíso, Chile</p>
+<p><strong>LinkedIn</strong><br>Miguel Meza Buzeta</p>
+
+<div class="card">
+<p><strong>ENVIAR MENSAJE</strong></p>
+<p>Nombres</p>
+<p>Correo</p>
+<p>Mensaje</p>
+</div>
+
+</div>
+
+</div>
 </section>
 
 </body>
