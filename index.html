@@ -6,9 +6,34 @@
 <title>MB Diseño Urbano</title>
 
 <style>
-  /* HERO REFINADO */
-  
+:root{--text:#111;--muted:#666;--line:#eaeaea}
 
+body{margin:0;font-family:Arial,sans-serif;color:var(--text)}
+
+header{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line)}
+.nav{max-width:1100px;margin:auto;padding:10px 20px;display:flex;justify-content:flex-end;gap:20px}
+.nav a{font-size:12px;text-decoration:none;color:#000}
+
+section{max-width:1100px;margin:auto;padding:80px 20px}
+
+.grid{display:grid;gap:28px}
+.two{grid-template-columns:1fr 1fr}
+.three{grid-template-columns:repeat(3,1fr)}
+
+.card{
+  border:1px solid var(--line);
+  padding:26px;
+}
+
+img{width:100%}
+
+.divider{height:1px;background:var(--line);margin:40px auto;max-width:1100px}
+
+.cta{border:1px solid #000;padding:10px 15px;display:inline-block;margin-top:15px}
+
+.small{font-size:13px;color:var(--muted)}
+
+/* HERO */
 .hero{
   padding:160px 20px 120px;
 }
@@ -37,8 +62,7 @@
   display:block;
 }
 
-/* SERVICIOS REFINAMIENTO */
-
+/* SERVICIOS */
 .card h3{
   font-size:20px;
   margin-bottom:12px;
@@ -52,8 +76,9 @@
   display:block;
   margin-top:14px;
   font-size:14px;
-/* CASOS DE ÉXITO REFINAMIENTO */
+}
 
+/* CASOS DE ÉXITO */
 #casos .card{
   padding:0;
   border:none;
@@ -72,26 +97,12 @@
   font-size:18px;
   margin-bottom:6px;
 }
-:root{--text:#111;--muted:#666;--line:#eaeaea}
-body{margin:0;font-family:Arial,sans-serif;color:var(--text)}
-header{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line)}
-.nav{max-width:1100px;margin:auto;padding:10px 20px;display:flex;justify-content:flex-end;gap:20px}
-.nav a{font-size:12px;text-decoration:none;color:#000}
-section{max-width:1100px;margin:auto;padding:80px 20px}
-.grid{display:grid;gap:28px}
-.two{grid-template-columns:1fr 1fr}
-.three{grid-template-columns:repeat(3,1fr)}
-.card{
-  border:1px solid var(--line);
-  padding:26px;
-}
-img{width:100%}
-.divider{height:1px;background:var(--line);margin:40px auto;max-width:1100px}
-.cta{border:1px solid #000;padding:10px 15px;display:inline-block;margin-top:15px}
-.small{font-size:13px;color:var(--muted)}
+
 </style>
- </head>
+</head>
+
 <body>
+
 <header>
 <div class="nav">
 <a href="#problemas">PROBLEMAS</a>
@@ -195,42 +206,42 @@ Coordinación con autoridades (Seremi de Vivienda y Urbanismo - SEREMI MINVU, Se
 <div class="divider"></div>
 
 <section id="proceso">
-  <h2>04 Nuestro Proceso</h2>
-  <p class="small">Transparente, paso a paso y orientado a resultados. Aquí está exactamente cómo trabajamos.</p>
+<h2>04 Nuestro Proceso</h2>
+<p class="small">Transparente, paso a paso y orientado a resultados. Aquí está exactamente cómo trabajamos.</p>
 
-  <div class="grid">
+<div class="grid">
 
-    <div class="card">
-      <strong>A</strong>
-      <p><strong>Levantamiento Normativo</strong><br>
-      Reunión inicial, recopilación de documentación, identificación de instrumentos normativos aplicables.</p>
-    </div>
+<div class="card">
+<strong>A</strong>
+<p><strong>Levantamiento Normativo</strong><br>
+Reunión inicial, recopilación de documentación, identificación de instrumentos normativos aplicables.</p>
+</div>
 
-    <div class="card">
-      <strong>B</strong>
-      <p><strong>Análisis de Restricciones</strong><br>
-      Análisis exhaustivo de cada instrumento, identificación de conflictos, restricciones y excepciones.</p>
-    </div>
+<div class="card">
+<strong>B</strong>
+<p><strong>Análisis de Restricciones</strong><br>
+Análisis exhaustivo de cada instrumento, identificación de conflictos, restricciones y excepciones.</p>
+</div>
 
-    <div class="card">
-      <strong>C</strong>
-      <p><strong>Definición de Estrategia</strong><br>
-      Presentación de rutas posibles, evaluación de riesgo, recomendación de estrategia óptima.</p>
-    </div>
+<div class="card">
+<strong>C</strong>
+<p><strong>Definición de Estrategia</strong><br>
+Presentación de rutas posibles, evaluación de riesgo, recomendación de estrategia óptima.</p>
+</div>
 
-    <div class="card">
-      <strong>D</strong>
-      <p><strong>Gestión Institucional</strong><br>
-      Coordinación con autoridades, preparación de documentación, seguimiento de expedientes.</p>
-    </div>
+<div class="card">
+<strong>D</strong>
+<p><strong>Gestión Institucional</strong><br>
+Coordinación con autoridades, preparación de documentación, seguimiento de expedientes.</p>
+</div>
 
-    <div class="card">
-      <strong>E</strong>
-      <p><strong>Cierre y Documentación</strong><br>
-      Entrega de permisos, documentación completa, disponibilidad para futuras fases.</p>
-    </div>
+<div class="card">
+<strong>E</strong>
+<p><strong>Cierre y Documentación</strong><br>
+Entrega de permisos, documentación completa, disponibilidad para futuras fases.</p>
+</div>
 
-  </div>
+</div>
 </section>
 
 <div class="divider"></div>
@@ -259,26 +270,24 @@ Valoras precisión técnica sobre promesas vagas</p>
 </section>
 
 <div class="divider"></div>
+
 <section>
-  <h2>06 Sobre mí</h2>
+<h2>06 Sobre mí</h2>
 
-  <p><strong>Miguel Meza Buzeta</strong></p>
-
-  <p>Arquitecto Diplomado en BIM (Building Information Modeling) / 2019</p>
-
-  <p>Universidad de Artes y Ciencias de la Comunicación — UNIACC</p>
-
-  <p>10+ años interpretando normativa compleja. 50+ proyectos desbloqueados. Experiencia en zonas rurales, subdivisiones, conflictos regulatorios. Relación directa con autoridades (Municipalidades, Secretaría Comunal de Planificación - SECPLA, Servicio Agrícola y Ganadero - SAG, Seremi de Vivienda y Urbanismo - SEREMI MINVU, Ministerio de Agricultura - MINAGRI).</p>
-
-  <p><strong>Especialización:</strong> Evaluación normativa (Plan Regulador Intercomunal Satélite Borde Costero Sur - PREMVAL Satélite Borde Costero Sur, Plan Regulador Comunal - PRC, Ordenanza General de Urbanismo y Construcciones - OGUC, leyes especiales). Destrabe de proyectos detenidos. Gestión institucional. Contextos complejos.</p>
+<p><strong>Miguel Meza Buzeta</strong></p>
+<p>Arquitecto Diplomado en BIM (Building Information Modeling) / 2019</p>
+<p>Universidad de Artes y Ciencias de la Comunicación — UNIACC</p>
+<p>10+ años interpretando normativa compleja. 50+ proyectos desbloqueados. Experiencia en zonas rurales, subdivisiones, conflictos regulatorios. Relación directa con autoridades (Municipalidades, Secretaría Comunal de Planificación - SECPLA, Servicio Agrícola y Ganadero - SAG, Seremi de Vivienda y Urbanismo - SEREMI MINVU, Ministerio de Agricultura - MINAGRI).</p>
+<p><strong>Especialización:</strong> Evaluación normativa (Plan Regulador Intercomunal Satélite Borde Costero Sur - PREMVAL Satélite Borde Costero Sur, Plan Regulador Comunal - PRC, Ordenanza General de Urbanismo y Construcciones - OGUC, leyes especiales). Destrabe de proyectos detenidos. Gestión institucional. Contextos complejos.</p>
 </section>
+
 <section id="casos">
 <h2>07 Casos de Éxito</h2>
 
 <div class="grid">
 
 <div class="card">
-<img src="caso-cardonal.png" style="width:100%; margin-bottom:10px;">
+<img src="caso-cardonal.png">
 <p><strong>01 El Cardonal</strong><br>
 Subdivisión Predial para Desarrollo Residencial
 Proyecto de subdivisión en zona con restricciones normativas. Evaluación de factibilidad, identificación de rutas viables, gestión con autoridades municipales.
@@ -286,7 +295,7 @@ Resultado: Subdivisión aprobada. Propietario cuenta con ruta clara para ejecuci
 </div>
 
 <div class="card">
-<img src="caso-totoral.png" style="width:100%; margin-bottom:10px;">
+<img src="caso-totoral.png">
 <p><strong>02 El Totoral</strong><br>
 Uso y Consolidación del Predio
 Análisis de viabilidad para consolidación habitacional con mejoras según normativa vigente. Evaluación de restricciones, definición de estrategia de desarrollo.
@@ -294,7 +303,7 @@ Resultado: Proyecto viable con ruta clara de ejecución</p>
 </div>
 
 <div class="card">
-<img src="caso-huallilemu.png" style="width:100%; margin-bottom:10px;">
+<img src="caso-huallilemu.png">
 <p><strong>03 Huallilemu</strong><br>
 Mediación Institucional Compleja
 Conflicto de interpretación normativa entre SAG, SEREMI MINVU, MINAGRI y DOM. Mediación técnica, análisis de zonificación PRSBCS, resolución de conflicto.
@@ -302,29 +311,31 @@ Resultado: Acuerdo institucional alcanzado. Proyecto desbloqueado con certeza re
 </div>
 
 </div>
+</section>
+
 <section>
-  <h2>08 Lo que dicen nuestros clientes</h2>
+<h2>08 Lo que dicen nuestros clientes</h2>
 
-  <p>Clientes que enfrentaban incertidumbre normativa y lograron desbloquear sus proyectos.</p>
+<p>Clientes que enfrentaban incertidumbre normativa y lograron desbloquear sus proyectos.</p>
 
-  <div class="grid three">
+<div class="grid three">
 
-    <div class="card">
-      <p>"Tenía un proyecto detenido por normativa. Miguel hizo un análisis profundo y encontró una ruta viable que otros no vieron. Proyecto ejecutado sin conflictos."</p>
-      <p><strong>Carlos Rodríguez</strong><br>Inversionista Inmobiliario</p>
-    </div>
+<div class="card">
+<p>"Tenía un proyecto detenido por normativa. Miguel hizo un análisis profundo y encontró una ruta viable que otros no vieron. Proyecto ejecutado sin conflictos."</p>
+<p><strong>Carlos Rodríguez</strong><br>Inversionista Inmobiliario</p>
+</div>
 
-    <div class="card">
-      <p>"No sabía si mi terreno era viable para subdividir. La evaluación normativa fue clara y precisa. Hoy tengo un proyecto aprobado."</p>
-      <p><strong>Patricia González</strong><br>Propietaria Rural</p>
-    </div>
+<div class="card">
+<p>"No sabía si mi terreno era viable para subdividir. La evaluación normativa fue clara y precisa. Hoy tengo un proyecto aprobado."</p>
+<p><strong>Patricia González</strong><br>Propietaria Rural</p>
+</div>
 
-    <div class="card">
-      <p>"Excelente análisis técnico. Redujeron incertidumbre normativa y nos ahorraron meses de gestión. Muy profesional."</p>
-      <p><strong>Roberto Silva</strong><br>Desarrollador Inmobiliario</p>
-    </div>
+<div class="card">
+<p>"Excelente análisis técnico. Redujeron incertidumbre normativa y nos ahorraron meses de gestión. Muy profesional."</p>
+<p><strong>Roberto Silva</strong><br>Desarrollador Inmobiliario</p>
+</div>
 
-  </div>
+</div>
 </section>
 
 <div class="divider"></div>
